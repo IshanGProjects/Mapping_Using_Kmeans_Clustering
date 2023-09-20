@@ -32,10 +32,3 @@ The purpose of this code is to group the counties of Colorado into 9 distinct re
 
 At the end of this process, each county in Colorado is assigned to one of 9 regions. The result is a table of counties with their associated `region_id`, which represents the region they belong to.
 
-
-
-The primary objective of k-means clustering is to minimize the within-cluster sum of squares (WCSS):
-
-$$ WCSS = \sum_{i=1}^{k} \sum_{x_j \in S_i} \| x_j - C_i \|^2 $$
-
-The algorithm aims to find cluster centers $ C_i $ that minimize the WCSS.
